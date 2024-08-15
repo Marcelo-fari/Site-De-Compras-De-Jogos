@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Compras</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <p><img src="lg1.png" alt="Smiley face" style="float:left;width:100px;height:70px;">
+        <h1>BLACK PANTHER</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Produtos</a></li>
+                <li><a href="#cart">Carrinho</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <p><img src="3.jpg" alt="Smiley face" style="float:right;width:350px;height:250px;">
+            </p>
+        <p><img src="6.jpg" alt="Smiley face" style="float:left;width:350px;height:250px;">
+            </p>
+            <h2>Bem-vindo à nossa loja!</h2>
+            <p>Encontre os melhores produtos com os melhores preços.</p>
+            <h2>......</h2>
+            <h2>......</h2>
+            <h2>......</h2>
+        </section>
+
+        <section id="products">
+            <h2>Produtos</h2>
+            <div class="product" data-name="Call Of Duty WZ" data-price="10.00">
+                <img src="gm2.jpg" alt="Girl in a jacket" width="130" height="150"float:right;>
+                <h3>Call Of Duty WZ</h3>
+                <p>Descrição:Call of Duty é uma série de jogos eletrônicos de tiro em primeira pessoa e franquia de mídia publicada pela Activision.</p>
+                <p>Preço: R$10,00</p>
+                <button class="add-to-cart">Adicionar ao Carrinho</button>
+            </div>
+            <div class="product" data-name="Spider-Man" data-price="20.00">
+                <img src="gm5.jpg" alt="Girl in a jacket" width="130" height="150">
+                <h3>Spider-Man</h3>
+                <p>Descrição do Spider-Man.</p>
+                <p>Preço: R$20,00</p>
+                <button class="add-to-cart">Adicionar ao Carrinho</button>
+            </div>
+            <div class="product" data-name="Batman: Arkham" data-price="10.00">
+                <img src="gm4.jpg" alt="Girl in a jacket" width="130" height="150">
+                <h3>Batman: Arkham</h3>
+                <p>Descrição: Batman: Arkham é uma série de videojogos de ação-aventura baseados no popular herói da DC Comics, Batman.</p>
+                <p>Preço: R$10,00</p>
+                <button class="add-to-cart">Adicionar ao Carrinho</button>
+            </div>
+            <div class="product" data-name="Grand Theft Auto" data-price="20.00">
+                <img src="gm3.jpg" alt="Girl in a jacket" width="130" height="150">
+                <h3>Grand Theft Auto</h3>
+                <p>Descrição:Grand Theft Auto é uma série de jogos eletrônicos de ação-aventura criada </p>
+                <p>por David Jones e Mike Dailly, sendo posteriormente gerenciada pelos irmãos Dan e Sam Houser.</p>
+                <p>Preço: R$20,00</p>
+                <button class="add-to-cart">Adicionar ao Carrinho</button>
+            </div>
+            <div class="product" data-name="God of War" data-price="10.00">
+                <img src="gm1.jpg" alt="Girl in a jacket" width="130" height="150">
+                <h3>God of War</h3>
+                <p>Descrição:God of War é uma série de jogos eletrônicos de ação-aventura e</p>
+                <p> de hack and slash criada por David Jaffe da Santa Monica Studio.</p>
+                <p>Preço: R$10,00</p>
+                <button class="add-to-cart">Adicionar ao Carrinho</button>
+            </div>
+             <div class="product" data-name="Resident Evil" data-price="20.00">
+                <img src="gm6.jpg" alt="Girl in a jacket" width="130" height="150">
+                <h3>Resident Evil</h3>
+                <p>Descrição:Resident Evil ou Biohazard no Japão, é uma série japonesa de jogos eletrônicos de </p><p>
+                    ação-aventura e de survival horror criada e publicada pela Capcom para várias plataformas.</p>
+                <p>Preço: R$20,00</p>
+                <button class="add-to-cart">Adicionar ao Carrinho</button>
+             </div>
+            </div>
+            <!-- Adicione mais produtos conforme necessário -->
+        </section>
+
+        <section id="cart">
+            <h2>Carrinho</h2>
+            <div id="cart-items">
+                <p>Seu carrinho está vazio.</p>
+            </div>
+            <p id="cart-total">Total: R$0,00</p>
+            <button id="checkout">Finalizar Compra</button>
+        </section>
+
+        <!--
+        <section id="contact">
+            <h2>Contato</h2>
+            <form action="mailto:seuemail@exemplo.com" method="post" enctype="text/plain">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Enviar</button>
+            -->
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Loja de Compras. Todos os direitos reservados a PANTHER COMPANY°.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
